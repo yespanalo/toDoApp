@@ -1,6 +1,13 @@
+# DB_CONFIG = {
+#     'host': 'localhost',
+#     'user': 'root',
+#     'password': '',
+#     'database': 'todo'
+# }
+
 DB_CONFIG = {
-    'host': 'localhost',
+    'host': 'mysql.railway.internal',
     'user': 'root',
-    'password': '',
-    'database': 'todo'
+    'password': 'ddtXyXUqCYwIZWiWVZyIvrITtCeTDOtA',
+    'database': 'railway'
 }
