@@ -12,5 +12,6 @@ app.register_blueprint(tasks_bp)
 app.register_blueprint(priorities_bp)
 CORS(app)
 
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0", port = 5000)
